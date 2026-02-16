@@ -1,0 +1,159 @@
+/* GLOBAL */
+.hh-root {
+  font-family: "Inter", "JetBrains Mono", monospace;
+  background: #0d1117;
+  color: #e5e7eb;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+/* Softer cyber palette */
+:root {
+  --cyber-cyan: #4de7e7;
+  --cyber-magenta: #ff66d8;
+  --cyber-purple: #b38cff;
+  --cyber-green: #5fffb0;
+
+  --bg-dark: #0d1117;
+  --bg-section: #161b22;
+  --text-light: #e5e7eb;
+}
+
+/* HERO */
+.hh-hero {
+  background: radial-gradient(circle at top, #1a1f35, var(--bg-dark) 70%);
+  padding: 5rem 1.5rem 3rem;
+  border-bottom: 1px solid var(--cyber-cyan);
+  box-shadow: 0 0 12px rgba(77, 231, 231, 0.25);
+}
+
+.hh-hero-content h1 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  color: var(--cyber-magenta);
+  text-shadow: 0 0 6px rgba(255, 102, 216, 0.3);
+}
+
+.hh-tagline {
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  color: var(--cyber-purple);
+}
+
+/* BUTTON */
+.hh-btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  background: var(--cyber-green);
+  box-shadow: 0 0 10px rgba(95, 255, 176, 0.25);
+  transition: 0.15s ease;
+}
+
+.hh-btn:hover {
+  background: var(--cyber-cyan);
+  box-shadow: 0 0 15px rgba(77, 231, 231, 0.35);
+}
+
+/*AVOIDS BAD STYLE*/
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ALL SCREEN READABILITY*/
+.hh-card p {
+  margin: 0.4rem 0;
+}
+
+
+/* NAV */
+.hh-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg-dark);
+  border-bottom: 1px solid var(--cyber-purple);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.hh-nav a {
+  color: var(--cyber-cyan);
+  text-decoration: none;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  transition: 0.15s ease;
+}
+
+.hh-nav a:hover {
+  background: rgba(77, 231, 231, 0.1);
+}
+
+/* SECTIONS */
+.hh-section {
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hh-section h2 {
+  color: var(--cyber-cyan);
+  margin-bottom: 1rem;
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+}
+
+/* GRID (tracks, schedule, etc.) */
+.hh-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 700px) {
+  .hh-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* CARDS */
+.hh-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--cyber-purple);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(179, 140, 255, 0.2);
+}
+
+/* SCHEDULE */
+.hh-schedule {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .hh-schedule {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* SPONSORS */
+.hh-sponsor-placeholder {
+  border: 1px dashed var(--cyber-magenta);
+  padding: 1rem;
+  color: var(--cyber-magenta);
+  border-radius: 6px;
+}
+
+/* FOOTER */
+.hh-footer {
+  padding: 1.5rem;
+  border-top: 1px solid var(--cyber-purple);
+  color: var(--cyber-purple);
+  font-size: 0.9rem;
+}
