@@ -95,6 +95,17 @@ ul, li {
   background: rgba(77, 231, 231, 0.1);
 }
 
+.hh-nav-title { 
+  font-family: "Orbitron", sans-serif; 
+  font-size: 1.4rem; 
+  letter-spacing: 2px; 
+  background: linear-gradient(90deg, var(--cyber-cyan), 
+  var(--cyber-magenta), var(--cyber-purple) ); 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  text-shadow: 0 0 10px rgba(255,255,255,0.15); 
+}
+
 /* SECTIONS */
 .hh-section {
   padding: 3rem 1.5rem;
