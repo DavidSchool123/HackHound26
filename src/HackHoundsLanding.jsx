@@ -13,7 +13,7 @@ const HackHoundsLanding = () => {
       <p className="hh-hero-meta">April 11–12 • Loyola University Maryland</p>
 
       <a
-        href="https://forms.office.com/your-link"
+        href="https://forms.office.com/r/MDQ63jJ4Ew?origin=lprLink"
         target="_blank"
         rel="noreferrer"
         className="hh-btn"
@@ -149,6 +149,9 @@ const HackHoundsLanding = () => {
     <div className="hh-grid">
       <div className="hh-card"><h3>David Ogunbanjo</h3><p>Organizer</p></div>
       <div className="hh-card"><h3>Aidan Marshall</h3><p>Host Club</p></div>
+      <div className="hh-card"><h3>Leslie Kim</h3><p>Host Club</p></div>
+      <div className="hh-card"><h3>Vilnis Jatnieks</h3><p>Host Club</p></div>
+      <div className="hh-card"><h3>David Opitz</h3><p>Host Club</p></div>
     </div>
   </section>
 
@@ -157,9 +160,9 @@ const HackHoundsLanding = () => {
     <h2>Sponsors</h2>
 
     <div className="hh-grid">
-      <div className="hh-card">Anthropic</div>
-      <div className="hh-card">Meta</div>
-      <div className="hh-card">Loyola University Maryland</div>
+      <div className="hh-card">NAS</div>
+      <div className="hh-card">ACM</div>
+      <div className="hh-card">CyberSecurity</div>
     </div>
 
     <p className="hh-note">Interested in sponsoring? Email us.</p>
