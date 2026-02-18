@@ -42,7 +42,7 @@ const HackHoundsLanding = () => {
   <section id="about" className="hh-section">
     <h2>About</h2>
     <p>
-      HackHounds is Loyola University Maryland’s annual hackathon — a weekend
+      HackHounds is Loyola University Maryland’s annual hackathon, a weekend
       where students from any school come together to build creative, impactful,
       and innovative projects. Whether you're a beginner or an experienced
       developer, HackHounds is designed to help you learn, collaborate, and
@@ -224,6 +224,7 @@ const HackHoundsLanding = () => {
     <p>Meet the organizers behind HackHounds.</p>
 
     <div className="hh-grid">
+      <div className="hh-card"><h3>Kelechi</h3><p>Organizer</p></div>
       <div className="hh-card"><h3>David Ogunbanjo</h3><p>Organizer</p></div>
       <div className="hh-card"><h3>Aidan Marshall</h3><p>Host Club</p></div>
       <div className="hh-card"><h3>Leslie Kim</h3><p>Host Club</p></div>

@@ -1,13 +1,15 @@
-/* GLOBAL */
+/* =========================================================
+   GLOBAL STYLES & VARIABLES
+   ========================================================= */
 .hh-root {
   font-family: "Inter", "JetBrains Mono", monospace;
   background: #0d1117;
   color: #e5e7eb;
   text-align: center;
-  padding-bottom: 1rem; 
+  padding-bottom: 1rem;
 }
 
-/* Softer cyber palette */
+/* Cyber Palette */
 :root {
   --cyber-cyan: #4de7e7;
   --cyber-magenta: #ff66d8;
@@ -19,57 +21,23 @@
   --text-light: #e5e7eb;
 }
 
-/* HERO */
-.hh-hero {
-  background: radial-gradient(circle at top, #1a1f35, var(--bg-dark) 70%);
-  padding: 5rem 1.5rem 3rem;
-  border-bottom: 1px solid var(--cyber-cyan);
-  box-shadow: 0 0 12px rgba(77, 231, 231, 0.25);
-}
-
-.hh-hero-content h1 {
-  font-size: clamp(2.2rem, 6vw, 3.5rem);
-  color: var(--cyber-magenta);
-  text-shadow: 0 0 6px rgba(255, 102, 216, 0.3);
-}
-
-.hh-tagline {
-  font-size: clamp(1rem, 3vw, 1.3rem);
-  color: var(--cyber-purple);
-}
-
-/* BUTTON */
-.hh-btn {
-  display: inline-block;
-  padding: 0.8rem 1.6rem;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  color: #000;
-  background: var(--cyber-green);
-  box-shadow: 0 0 10px rgba(95, 255, 176, 0.25);
-  transition: 0.15s ease;
-}
-
-.hh-btn:hover {
-  background: var(--cyber-cyan);
-  box-shadow: 0 0 15px rgba(77, 231, 231, 0.35);
-}
-
-/*AVOIDS BAD STYLE*/
+/* Reset unwanted list styling */
 ul, li {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ALL SCREEN READABILITY*/
+/* Universal card paragraph spacing */
 .hh-card p {
   margin: 0.4rem 0;
 }
 
 
-/* NAV */
+
+/* =========================================================
+   NAVIGATION BAR
+   ========================================================= */
 .hh-nav {
   display: flex;
   flex-wrap: wrap;
@@ -95,20 +63,73 @@ ul, li {
   background: rgba(77, 231, 231, 0.1);
 }
 
-.hh-nav-title { 
-  font-family: "Orbitron", sans-serif; 
-  font-size: 1.4rem; 
-  letter-spacing: 2px; 
-  background: linear-gradient(90deg, var(--cyber-cyan), 
-  var(--cyber-magenta), var(--cyber-purple) ); 
-  -webkit-background-clip: text; 
-  color: transparent; 
-  text-shadow: 0 0 10px rgba(255,255,255,0.15); 
+.hh-nav-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--cyber-cyan),
+    var(--cyber-magenta),
+    var(--cyber-purple)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
 }
 
-/* SECTIONS */
+
+
+/* =========================================================
+   HERO SECTION
+   ========================================================= */
+.hh-hero {
+  background: radial-gradient(circle at top, #1a1f35, var(--bg-dark) 70%);
+  padding: 5rem 1.5rem 3rem;
+  border-bottom: 1px solid var(--cyber-cyan);
+  box-shadow: 0 0 12px rgba(77, 231, 231, 0.25);
+}
+
+.hh-hero-content h1 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  color: var(--cyber-magenta);
+  text-shadow: 0 0 6px rgba(255, 102, 216, 0.3);
+}
+
+.hh-tagline {
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  color: var(--cyber-purple);
+}
+
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+.hh-btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  background: var(--cyber-green);
+  box-shadow: 0 0 10px rgba(95, 255, 176, 0.25);
+  transition: 0.15s ease;
+}
+
+.hh-btn:hover {
+  background: var(--cyber-cyan);
+  box-shadow: 0 0 15px rgba(77, 231, 231, 0.35);
+}
+
+
+
+/* =========================================================
+   SECTION WRAPPER
+   ========================================================= */
 .hh-section {
-  padding: 3rem 1.5rem;
+  padding: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -119,7 +140,11 @@ ul, li {
   font-size: clamp(1.4rem, 4vw, 1.9rem);
 }
 
-/* GRID (tracks, schedule, etc.) */
+
+
+/* =========================================================
+   GENERIC GRID (tracks, schedule, etc.)
+   ========================================================= */
 .hh-grid {
   display: grid;
   gap: 1rem;
@@ -132,41 +157,17 @@ ul, li {
   }
 }
 
-/* CARDS */
+
+
+/* =========================================================
+   GENERIC CARD
+   ========================================================= */
 .hh-card {
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--cyber-purple);
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 0 8px rgba(179, 140, 255, 0.2);
-}
-
-/* SCHEDULE */
-.hh-schedule {
-  display: grid;
-  gap: 1.5rem;
-}
-
-@media (min-width: 700px) {
-  .hh-schedule {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* SPONSORS */
-.hh-sponsor-placeholder {
-  border: 1px dashed var(--cyber-magenta);
-  padding: 1rem;
-  color: var(--cyber-magenta);
-  border-radius: 6px;
-}
-
-/* FOOTER */
-.hh-footer {
-  padding: 1.5rem;
-  border-top: 1px solid var(--cyber-purple);
-  color: var(--cyber-purple);
-  font-size: 0.9rem;
 }
 
 .hh-card h4 {
@@ -179,127 +180,12 @@ ul, li {
   padding-bottom: 0.2rem;
 }
 
-.hh-day-block {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-  padding: 1rem 0;
-}
 
-.hh-day-header {
-  width: 90%;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
+/* =========================================================
+   TRACKS
+   ========================================================= */
 
-  background: rgba(255, 255, 255, 0.04); /* subtle dark glass */ 
-  border: 0.5px solid var(--cyber-cyan); /* thin neon border */ 
-  box-shadow: 0 0 10px rgba(77, 231, 231, 0.25); /* soft glow */
-  text-align: center;
-}
-
-.hh-day-header h3 {
-  margin: 0;
-  color: #fffdfd;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 1.4rem;
-}
-
-/* PRIZES GRID */
-.hh-prizes-grid {
-  display: grid;
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
-
-@media (min-width: 700px) {
-  .hh-prizes-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* PRIZES GRID */
-.hh-prizes-grid {
-  display: grid;
-  gap: 1.2rem;
-  margin-top: 1.5rem;
-}
-
-@media (min-width: 700px) {
-  .hh-prizes-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* BASE PRIZE CARD */
-.hh-prize-card {
-  padding: 1.4rem;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
-  transition: 0.25s ease;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
-}
-
-.hh-prize-card h3 {
-  margin: 0;
-  font-size: 1.15rem;
-  font-weight: 700;
-}
-
-/* COLOR VARIANTS */
-.hh-prize-card.cyan {
-  border-color: var(--cyber-cyan);
-  box-shadow: 0 0 12px rgba(77, 231, 231, 0.35);
-}
-.hh-prize-card.cyan h3 {
-  color: var(--cyber-cyan);
-}
-
-.hh-prize-card.magenta {
-  border-color: var(--cyber-magenta);
-  box-shadow: 0 0 12px rgba(255, 102, 216, 0.35);
-}
-.hh-prize-card.magenta h3 {
-  color: var(--cyber-magenta);
-}
-
-.hh-prize-card.purple {
-  border-color: var(--cyber-purple);
-  box-shadow: 0 0 12px rgba(179, 140, 255, 0.35);
-}
-.hh-prize-card.purple h3 {
-  color: var(--cyber-purple);
-}
-
-.hh-prize-card.green {
-  border-color: var(--cyber-green);
-  box-shadow: 0 0 12px rgba(95, 255, 176, 0.35);
-}
-.hh-prize-card.green h3 {
-  color: var(--cyber-green);
-}
-
-/* GOLD SPECIAL CARD */
-.hh-prize-card.gold {
-  border-color: #ffd86b;
-  box-shadow: 0 0 14px rgba(255, 216, 107, 0.45);
-}
-.hh-prize-card.gold h3 {
-  color: #ffd86b;
-  text-shadow: 0 0 8px rgba(255, 216, 107, 0.4);
-}
-
-/* HOVER EFFECT */
-.hh-prize-card:hover {
-  transform: translateY(-6px);
-  filter: brightness(1.25);
-}
-
-/* TRACKS LAYOUT */
+/* Container */
 .hh-tracks-container {
   display: flex;
   flex-direction: column;
@@ -308,7 +194,7 @@ ul, li {
   margin-top: 1.5rem;
 }
 
-/* Top card (General) */
+/* Top (General) */
 .hh-track-card.main {
   max-width: 650px;
   width: 100%;
@@ -356,4 +242,155 @@ ul, li {
   margin-bottom: 0.4rem;
   color: var(--cyber-cyan);
   text-shadow: 0 0 6px rgba(77, 231, 231, 0.3);
+}
+
+
+/* =========================================================
+   PRIZES
+   ========================================================= */
+
+/* Grid */
+.hh-prizes-grid {
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .hh-prizes-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Base card */
+.hh-prize-card {
+  padding: 1.4rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+}
+
+.hh-prize-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+/* Color variants */
+.hh-prize-card.cyan {
+  border-color: var(--cyber-cyan);
+  box-shadow: 0 0 12px rgba(77, 231, 231, 0.35);
+}
+.hh-prize-card.cyan h3 {
+  color: var(--cyber-cyan);
+}
+
+.hh-prize-card.magenta {
+  border-color: var(--cyber-magenta);
+  box-shadow: 0 0 12px rgba(255, 102, 216, 0.35);
+}
+.hh-prize-card.magenta h3 {
+  color: var(--cyber-magenta);
+}
+
+.hh-prize-card.purple {
+  border-color: var(--cyber-purple);
+  box-shadow: 0 0 12px rgba(179, 140, 255, 0.35);
+}
+.hh-prize-card.purple h3 {
+  color: var(--cyber-purple);
+}
+
+.hh-prize-card.green {
+  border-color: var(--cyber-green);
+  box-shadow: 0 0 12px rgba(95, 255, 176, 0.35);
+}
+.hh-prize-card.green h3 {
+  color: var(--cyber-green);
+}
+
+/* Gold special */
+.hh-prize-card.gold {
+  border-color: #ffd86b;
+  box-shadow: 0 0 14px rgba(255, 216, 107, 0.45);
+}
+.hh-prize-card.gold h3 {
+  color: #ffd86b;
+  text-shadow: 0 0 8px rgba(255, 216, 107, 0.4);
+}
+
+/* Hover */
+.hh-prize-card:hover {
+  transform: translateY(-6px);
+  filter: brightness(1.25);
+}
+
+
+/* =========================================================
+   SCHEDULE
+   ========================================================= */
+.hh-schedule {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .hh-schedule {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Day block */
+.hh-day-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  padding: 1rem 0;
+}
+
+.hh-day-header {
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 0.5px solid var(--cyber-cyan);
+  box-shadow: 0 0 10px rgba(77, 231, 231, 0.25);
+  text-align: center;
+}
+
+.hh-day-header h3 {
+  margin: 0;
+  color: #fffdfd;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
+
+
+/* =========================================================
+   SPONSORS
+   ========================================================= */
+.hh-sponsor-placeholder {
+  border: 1px dashed var(--cyber-magenta);
+  padding: 1rem;
+  color: var(--cyber-magenta);
+  border-radius: 6px;
+}
+
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.hh-footer {
+  padding: 1.5rem;
+  border-top: 1px solid var(--cyber-purple);
+  color: var(--cyber-purple);
+  font-size: 0.9rem;
 }
