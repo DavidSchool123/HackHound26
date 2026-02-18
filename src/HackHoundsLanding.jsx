@@ -50,43 +50,69 @@ const HackHoundsLanding = () => {
     </p>
   </section>
 
-  {/* TRACKS */}
-  <section id="tracks" className="hh-section">
-    <h2>Tracks</h2>
-    <p>Choose a track or build anything you're passionate about.</p>
+    {/* TRACKS */}
+    <section id="tracks" className="hh-section">
+      <h2>Tracks</h2>
+      <p>Choose a track or build anything you're passionate about.</p>
 
-    <div className="hh-grid">
-      <div className="hh-card">
-        <h3>General</h3>
-        <p>Open‑ended projects across any domain.</p>
-      </div>
+      <div className="hh-tracks-container">
 
-      <div className="hh-card">
-        <h3>AI / Machine Learning</h3>
-        <p>Build with AI models, automation, or intelligent systems.</p>
-      </div>
+        {/* Top Center Track */}
+        <div className="hh-track-card main">
+          <h3>General</h3>
+          <p>Open‑ended projects across any domain.</p>
+        </div>
 
-      <div className="hh-card">
-        <h3>Health</h3>
-        <p>Create tools that support wellness or healthcare.</p>
+        {/* Bottom Two Tracks */}
+        <div className="hh-tracks-row">
+          <div className="hh-track-card">
+            <h3>AI / Machine Learning</h3>
+            <p>Build with AI models, automation, or intelligent systems.</p>
+          </div>
+
+          <div className="hh-track-card">
+            <h3>Health</h3>
+            <p>Create tools that support wellness or healthcare.</p>
+          </div>
+        </div>
+
       </div>
+    </section>
+
+
+      {/* PRIZES */}
+<section id="prizes" className="hh-section">
+  <h2>Prizes</h2>
+
+  <div className="mainDivStructure">
+    
+  </div>
+  <div className="hh-prizes-grid">
+    <div className="hh-prize-card cyan">
+      <h3>Best General Track</h3>
     </div>
-  </section>
 
-  {/* PRIZES */}
-  <section id="prizes" className="hh-section">
-    <h2>Prizes</h2>
-
-    <div className="hh-card" style={{ maxWidth: "600px", margin: "0 auto" }}>
-      <p><strong>Best General Track</strong></p>
-      <p><strong>Best AI/ML Track</strong></p>
-      <p><strong>Best Health Track</strong></p>
-      <p><strong>Most Creative Hack</strong></p>
-      <p><strong>Best Overall Project</strong></p>
+    <div className="hh-prize-card magenta">
+      <h3>Best AI/ML Track</h3>
     </div>
 
-    <p className="hh-note">Prize details will be announced soon.</p>
-  </section>
+    <div className="hh-prize-card purple">
+      <h3>Best Health Track</h3>
+    </div>
+
+    <div className="hh-prize-card green">
+      <h3>Most Creative Hack</h3>
+    </div>
+
+    <div className="hh-prize-card gold highlight">
+      <h3>Best Overall Project</h3>
+    </div>
+  </div>
+
+  <p className="hh-note">Prize details will be announced soon.</p>
+</section>
+
+
 
     {/* SCHEDULE */}
 <section id="schedule" className="hh-section">
