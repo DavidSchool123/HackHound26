@@ -219,6 +219,7 @@ const HackHoundsLanding = () => {
   </section>
 
 {/* TEAM */}
+{/* TODO: replace role, with linkeldn and github */}
 <section id="team" className="hh-section">
   <h2>Team</h2>
   <p>Meet the organizers behind HackHounds.</p>
