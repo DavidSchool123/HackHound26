@@ -132,7 +132,7 @@ ul, li {
   }
 }
 /* Hide all right-side nav links on screens 700px and below */
-@media (max-width: 1190px) {
+@media (max-width: 1190px) {  /* Desktop width*/
 
   /* tighten padding so the logo/title stays nicely aligned */
   .hh-nav {
@@ -143,7 +143,7 @@ ul, li {
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1150px) { /*Smaller laptop/ phone width*/
   .hh-nav-right {
     display: none;
   }
@@ -156,7 +156,7 @@ ul, li {
    ========================================================= */
 .hh-hero {
   background: radial-gradient(circle at top, #1a1f35, var(--bg-dark) 70%);
-  padding: 15rem 1.5rem 20rem;
+  padding: 12rem 1.5rem 20rem;
   border-bottom: 1px solid var(--cyber-cyan);
   box-shadow: 0 0 12px rgba(77, 231, 231, 0.25);
 }
@@ -167,12 +167,18 @@ ul, li {
   text-shadow: 0 0 6px rgba(255, 102, 216, 0.3);
 }
 
+
 .hh-tagline {
   font-size: clamp(1rem, 3vw, 1.3rem);
+  padding-bottom: 1rem;
   color: var(--cyber-purple);
 }
 
-@media(max-width: 1190px){
+.hh-hero-meta {
+  padding-bottom: 2rem;
+}
+
+@media(max-width: 1190px){  /*laptop size*/
   .hh-hero{
     padding: 5rem 1.5rem 6rem;
   }
@@ -255,7 +261,6 @@ ul, li {
   border-bottom: 1px solid rgba(255, 102, 216, 0.15);
   padding-bottom: 0.2rem;
 }
-
 
 /* =========================================================
    TRACKS
