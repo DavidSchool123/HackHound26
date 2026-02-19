@@ -24,20 +24,27 @@ const HackHoundsLanding = () => {
     </div>
   </header>
 
-  {/* NAV */}
   <nav className="hh-nav">
     <div className="hh-nav-left">
-      <span className="hh-nav-title">HackHounds ’26</span>
+      <span className="hh-nav-title">
+        <img src="\hackhound_logo.png" alt="Hack Hound Logo" className="hh-nav-logo" />
+        HackHounds ’26
+      </span>
     </div>
-    <a href="#about">About</a>
-    <a href="#tracks">Tracks</a>
-    <a href="#prizes">Prizes</a>
-    <a href="#schedule">Schedule</a>
-    <a href="#faq">FAQ</a>
-    <a href="#team">Team</a>
-    <a href="#sponsors">Sponsors</a>
-    <a href="#contact">Contact</a>
+
+    <div className="hh-nav-right">
+      <a href="#about">About</a>
+      <a href="#tracks">Tracks</a>
+      <a href="#prizes">Prizes</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#faq">FAQ</a>
+      <a href="#team">Team</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
+
+
 
   {/* ABOUT */}
   <section id="about" className="hh-section">
