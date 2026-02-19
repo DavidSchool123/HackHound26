@@ -228,42 +228,42 @@ const HackHoundsLanding = () => {
 
     {/* KELECHI */}
     <div className="hh-card">
-      <img src="/public\discord_logo.png" alt="Kelechi" className="hh-team-logo" />
+      <img src="\discord_logo.png" alt="Kelechi" className="hh-team-logo" />
       <h3>Kelechi</h3>
       <p>Organizer</p>
     </div>
 
     {/* DAVID OGUNBANJO */}
     <div className="hh-card">
-      <img src="public\discord_logo.png" alt="David Ogunbanjo" className="hh-team-logo" />
+      <img src="\discord_logo.png" alt="David Ogunbanjo" className="hh-team-logo" />
       <h3>David Ogunbanjo</h3>
       <p>Organizer</p>
     </div>
 
     {/* AIDAN */}
     <div className="hh-card">
-      <img src="public\discord_logo.png" alt="Aidan Marshall" className="hh-team-logo" />
+      <img src="\discord_logo.png" alt="Aidan Marshall" className="hh-team-logo" />
       <h3>Aidan Marshall</h3>
       <p>Host Club</p>
     </div>
 
     {/* LESLIE */}
     <div className="hh-card">
-      <img src="public\discord_logo.png" alt="Leslie Kim" className="hh-team-logo" />
+      <img src="\discord_logo.png" alt="Leslie Kim" className="hh-team-logo" />
       <h3>Leslie Kim</h3>
       <p>Host Club</p>
     </div>
 
     {/* VILNIS */}
     <div className="hh-card">
-      <img src="public\discord_logo.png" alt="Vilnis Jatnieks" className="hh-team-logo" />
+      <img src="\discord_logo.png" alt="Vilnis Jatnieks" className="hh-team-logo" />
       <h3>Vilnis Jatnieks</h3>
       <p>Host Club</p>
     </div>
 
     {/* DAVID OPITZ */}
     <div className="hh-card">
-      <img src="public\discord_logo.png" alt="David Opitz" className="hh-team-logo" />
+      <img src="\discord_logo.png" alt="David Opitz" className="hh-team-logo" />
       <h3>David Opitz</h3>
       <p>Host Club</p>
     </div>
@@ -278,22 +278,22 @@ const HackHoundsLanding = () => {
 
     <div className="hh-grid">
       <div className="hh-card">
-        <img src="public\discord_logo.png" alt="NAS Logo" className="hh-sponsor-logo" />
+        <img src="\discord_logo.png" alt="NAS Logo" className="hh-sponsor-logo" />
         <p>NAS</p>
       </div>
 
       <div className="hh-card">
-        <img src="public\discord_logo.png" alt="ACM Logo" className="hh-sponsor-logo" />
+        <img src="\discord_logo.png" alt="ACM Logo" className="hh-sponsor-logo" />
         <p>ACM</p>
       </div>
 
       <div className="hh-card">
-        <img src="public\discord_logo.png" alt="Cybersecurity Logo" className="hh-sponsor-logo" />
+        <img src="\discord_logo.png" alt="Cybersecurity Logo" className="hh-sponsor-logo" />
         <p>CyberSecurity</p>
       </div>
 
       <div className="hh-card">
-        <img src="public\discord_logo.png" alt="Teacher Education Logo" className="hh-sponsor-logo" />
+        <img src="\discord_logo.png" alt="Teacher Education Logo" className="hh-sponsor-logo" />
         <p>Teacher Education</p>
       </div>
     </div>
@@ -308,11 +308,11 @@ const HackHoundsLanding = () => {
     <p>Questions? Reach out at:</p>
     <div className="hh-contact">
       <a href="https://discord.com/channels/1473781449818767646/1473827769401217085" target="_blank" rel="noopener noreferrer">
-        <img src="public\discord_logo.png" alt="Discord" className="contact-icon" />
+        <img src="\discord_logo.png" alt="Discord" className="contact-icon" />
       </a>
 
       <a href="https://www.instagram.com/loyolacyberhounds" target="_blank" rel="noopener noreferrer">
-        <img src="public\instagram_logo.png" alt="Instagram" className="contact-icon" />
+        <img src="\instagram_logo.png" alt="Instagram" className="contact-icon" />
       </a>
     </div>
 
