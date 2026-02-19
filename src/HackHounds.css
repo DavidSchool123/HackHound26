@@ -172,6 +172,11 @@ ul, li {
   color: var(--cyber-purple);
 }
 
+@media(max-width: 1190px){
+  .hh-hero{
+    padding: 5rem 1.5rem 6rem;
+  }
+}
 
 
 /* =========================================================
