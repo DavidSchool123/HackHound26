@@ -307,7 +307,7 @@ const HackHoundsLanding = () => {
     <h2>Contact</h2>
     <p>Questions? Reach out at:</p>
     <div className="hh-contact">
-      <a href="https://discord.com/channels/1473781449818767646/1473827769401217085" target="_blank" rel="noopener noreferrer">
+      <a href="https://discord.gg/QpuehrKCzB" target="_blank" rel="noopener noreferrer">
         <img src="\discord_logo.png" alt="Discord" className="contact-icon" />
       </a>
 
