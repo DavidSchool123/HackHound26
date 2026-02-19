@@ -6,24 +6,8 @@ const HackHoundsLanding = () => {
     <div className="hh-root">
     <div className="hh-stars"></div>
 
-  {/* HERO */}
-  <header className="hh-hero" id="top">
-    <div className="hh-hero-content">
-      <h1>HackHounds 2026</h1>
-      <p className="hh-tagline">Build. Learn. Create. Join the Pack.</p>
-      <p className="hh-hero-meta">April 11–12 • Loyola University Maryland  • 24 Hours</p>
 
-      <a
-        href="https://forms.office.com/r/MDQ63jJ4Ew?origin=lprLink"
-        target="_blank"
-        rel="noreferrer"
-        className="hh-btn"
-      >
-        Register Now
-      </a>
-    </div>
-  </header>
-
+  {/* NAV */}
   <nav className="hh-nav">
     <div className="hh-nav-left">
       <span className="hh-nav-title">
@@ -43,6 +27,26 @@ const HackHoundsLanding = () => {
       <a href="#contact">Contact</a>
     </div>
   </nav>
+
+
+  {/* HERO */}
+  <header className="hh-hero" id="top">
+    <div className="hh-hero-content">
+      <h1>HackHounds 2026</h1>
+      <p className="hh-tagline">Build. Learn. Create. Join the Pack.</p>
+      <p className="hh-hero-meta">April 11–12 • Loyola University Maryland  • 24 Hours</p>
+
+      <a
+        href="https://forms.office.com/r/MDQ63jJ4Ew?origin=lprLink"
+        target="_blank"
+        rel="noreferrer"
+        className="hh-btn"
+      >
+        Register Now
+      </a>
+    </div>
+  </header>
+
 
 
 

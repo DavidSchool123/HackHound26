@@ -40,15 +40,29 @@ ul, li {
    ========================================================= */
 .hh-nav {
   display: flex;
-  justify-content: space-between; /* left stays left, right stays right */
+  justify-content: space-between;   /* left stays left, right stays right */
   align-items: center;
-  padding: 0.75rem 10rem;
+  padding: 0.75rem 1rem;            /* mobile-friendly padding */
   background: var(--bg-dark);
   border-bottom: 1px solid var(--cyber-purple);
   position: sticky;
   top: 0;
   z-index: 10;
 }
+
+/* Larger screens get more breathing room */
+@media (min-width: 700px) {
+  .hh-nav {
+    padding: 0.75rem 3rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .hh-nav {
+    padding: 0.75rem 6rem;
+  }
+}
+
 .hh-nav-left {
   display: flex;
   align-items: center;
@@ -58,9 +72,8 @@ ul, li {
   display: flex;
   gap: 0.75rem;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap;   /* prevents overflow on small screens */
 }
-
 
 .hh-nav a {
   color: var(--cyber-cyan);
@@ -91,20 +104,18 @@ ul, li {
 
 /* NAV LOGO */
 .hh-nav-logo {
-  height: 32px;          /* base size */
-  width: auto;           /* keep aspect ratio */
+  height: 32px;
+  width: auto;
   margin-right: 8px;
   vertical-align: middle;
 }
 
-/* Slightly larger on tablets/desktops */
 @media (min-width: 600px) {
   .hh-nav-logo {
     height: 40px;
   }
 }
 
-/* Even larger on big screens */
 @media (min-width: 1000px) {
   .hh-nav-logo {
     height: 48px;
@@ -118,7 +129,7 @@ ul, li {
    ========================================================= */
 .hh-hero {
   background: radial-gradient(circle at top, #1a1f35, var(--bg-dark) 70%);
-  padding: 5rem 1.5rem 3rem;
+  padding: 15rem 1.5rem 20rem;
   border-bottom: 1px solid var(--cyber-cyan);
   box-shadow: 0 0 12px rgba(77, 231, 231, 0.25);
 }
@@ -162,7 +173,7 @@ ul, li {
    SECTION WRAPPER
    ========================================================= */
 .hh-section {
-  padding: 1.5rem;
+  padding-top: 4rem;
   max-width: 900px;
   margin: 0 auto;
 }
