@@ -251,7 +251,16 @@ const HackHoundsLanding = () => {
   <section id="contact" className="hh-section">
     <h2>Contact</h2>
     <p>Questions? Reach out at:</p>
-    <p><strong>hackhounds@loyola.edu</strong></p>
+    <div className="hh-contact">
+      <a href="https://discord.com/channels/1473781449818767646/1473827769401217085" target="_blank" rel="noopener noreferrer">
+        <img src="public\discord_logo.png" alt="Discord" className="contact-icon" />
+      </a>
+
+      <a href="https://www.instagram.com/loyolacyberhounds" target="_blank" rel="noopener noreferrer">
+        <img src="public\instagram_logo.png" alt="Instagram" className="contact-icon" />
+      </a>
+    </div>
+
   </section>
 
   {/* FOOTER */}
