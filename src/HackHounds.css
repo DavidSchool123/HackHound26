@@ -63,6 +63,13 @@ ul, li {
   }
 }
 
+/* Hide right-side nav links on small screens */
+@media (max-width: 700px) {
+  .hh-nav-right {
+    display: none;
+  }
+}
+
 .hh-nav-left {
   display: flex;
   align-items: center;
@@ -121,6 +128,19 @@ ul, li {
     height: 48px;
   }
 }
+/* Hide all right-side nav links on screens 700px and below */
+@media (max-width: 1190px) {
+  .hh-nav-right {
+    display: none;
+  }
+
+  /* Optional: tighten padding so the logo/title stays nicely aligned */
+  .hh-nav {
+    padding: 0.75rem 1rem;
+    justify-content: flex-start;
+  }
+}
+
 
 
 
@@ -256,12 +276,7 @@ ul, li {
   align-items: center;
 }
 
-@media (min-width: 700px) {
-  .hh-tracks-row {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
+
 
 /* Track cards */
 .hh-track-card {
@@ -288,6 +303,20 @@ ul, li {
   text-shadow: 0 0 6px rgba(77, 231, 231, 0.3);
 }
 
+@media (min-width: 700px) {
+  .hh-tracks-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .hh-track-card.main{
+    max-width: 300px;
+    width:100%
+  }
+}
 
 /* =========================================================
    PRIZES
