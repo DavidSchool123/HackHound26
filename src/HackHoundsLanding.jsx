@@ -218,34 +218,88 @@ const HackHoundsLanding = () => {
     </div>
   </section>
 
-  {/* TEAM */}
-  <section id="team" className="hh-section">
-    <h2>Team</h2>
-    <p>Meet the organizers behind HackHounds.</p>
+{/* TEAM */}
+<section id="team" className="hh-section">
+  <h2>Team</h2>
+  <p>Meet the organizers behind HackHounds.</p>
 
-    <div className="hh-grid">
-      <div className="hh-card"><h3>Kelechi</h3><p>Organizer</p></div>
-      <div className="hh-card"><h3>David Ogunbanjo</h3><p>Organizer</p></div>
-      <div className="hh-card"><h3>Aidan Marshall</h3><p>Host Club</p></div>
-      <div className="hh-card"><h3>Leslie Kim</h3><p>Host Club</p></div>
-      <div className="hh-card"><h3>Vilnis Jatnieks</h3><p>Host Club</p></div>
-      <div className="hh-card"><h3>David Opitz</h3><p>Host Club</p></div>
+  <div className="hh-grid">
+
+    {/* KELECHI */}
+    <div className="hh-card">
+      <img src="/public\discord_logo.png" alt="Kelechi" className="hh-team-logo" />
+      <h3>Kelechi</h3>
+      <p>Organizer</p>
     </div>
-  </section>
 
-  {/* SPONSORS */}
+    {/* DAVID OGUNBANJO */}
+    <div className="hh-card">
+      <img src="public\discord_logo.png" alt="David Ogunbanjo" className="hh-team-logo" />
+      <h3>David Ogunbanjo</h3>
+      <p>Organizer</p>
+    </div>
+
+    {/* AIDAN */}
+    <div className="hh-card">
+      <img src="public\discord_logo.png" alt="Aidan Marshall" className="hh-team-logo" />
+      <h3>Aidan Marshall</h3>
+      <p>Host Club</p>
+    </div>
+
+    {/* LESLIE */}
+    <div className="hh-card">
+      <img src="public\discord_logo.png" alt="Leslie Kim" className="hh-team-logo" />
+      <h3>Leslie Kim</h3>
+      <p>Host Club</p>
+    </div>
+
+    {/* VILNIS */}
+    <div className="hh-card">
+      <img src="public\discord_logo.png" alt="Vilnis Jatnieks" className="hh-team-logo" />
+      <h3>Vilnis Jatnieks</h3>
+      <p>Host Club</p>
+    </div>
+
+    {/* DAVID OPITZ */}
+    <div className="hh-card">
+      <img src="public\discord_logo.png" alt="David Opitz" className="hh-team-logo" />
+      <h3>David Opitz</h3>
+      <p>Host Club</p>
+    </div>
+
+  </div>
+</section>
+
+
+    {/* SPONSORS */}
   <section id="sponsors" className="hh-section">
     <h2>Sponsors</h2>
 
     <div className="hh-grid">
-      <div className="hh-card">NAS</div>
-      <div className="hh-card">ACM</div>
-      <div className="hh-card">CyberSecurity</div>
-      <div className="hh-card">Teacher Education</div>
+      <div className="hh-card">
+        <img src="public\discord_logo.png" alt="NAS Logo" className="hh-sponsor-logo" />
+        <p>NAS</p>
+      </div>
+
+      <div className="hh-card">
+        <img src="public\discord_logo.png" alt="ACM Logo" className="hh-sponsor-logo" />
+        <p>ACM</p>
+      </div>
+
+      <div className="hh-card">
+        <img src="public\discord_logo.png" alt="Cybersecurity Logo" className="hh-sponsor-logo" />
+        <p>CyberSecurity</p>
+      </div>
+
+      <div className="hh-card">
+        <img src="public\discord_logo.png" alt="Teacher Education Logo" className="hh-sponsor-logo" />
+        <p>Teacher Education</p>
+      </div>
     </div>
 
     <p className="hh-note">Interested in sponsoring? Email us.</p>
   </section>
+
 
   {/* CONTACT */}
   <section id="contact" className="hh-section">

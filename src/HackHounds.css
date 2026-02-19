@@ -371,16 +371,39 @@ ul, li {
   font-size: 1.4rem;
 }
 
+/* =========================================================
+   TEAMs
+   ========================================================= */
+
+.hh-team-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2d2d3a;
+  transition: transform 0.2s ease;
+}
+
+.hh-card:hover .hh-team-logo {
+  transform: scale(1.05);
+}
 
 
 /* =========================================================
    SPONSORS
    ========================================================= */
-.hh-sponsor-placeholder {
-  border: 1px dashed var(--cyber-magenta);
+.hh-sponsor-logo {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.2));
+  transition: transform 0.2s ease;
   padding: 1rem;
-  color: var(--cyber-magenta);
-  border-radius: 6px;
+}
+
+.hh-card:hover .hh-sponsor-logo {
+  transform: scale(1.05);
 }
 
 
