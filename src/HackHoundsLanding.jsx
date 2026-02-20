@@ -32,6 +32,7 @@ const HackHoundsLanding = () => {
   {/* HERO */}
   <header className="hh-hero" id="top">
     <div className="hh-hero-content">
+
       <h1>HackHounds 2026</h1>
       <p className="hh-tagline">Build. Learn. Create. Join the Pack.</p>
       <p className="hh-hero-meta">April 11–12 • Loyola University Maryland  • 24 Hours</p>
@@ -240,18 +241,19 @@ const HackHoundsLanding = () => {
 
   <div className="hh-grid">
 
-    {/* KELECHI */}
+    {/* Milles */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="Kelechi" className="hh-team-logo" />
-      <h3>Kelechi</h3>
+      <img src="\discord_logo.png" alt="Miles Hall" className="hh-team-logo" />
+      <h3>Miles Hall</h3>
       <p>Organizer</p>
     </div>
 
     {/* DAVID OGUNBANJO */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="David Ogunbanjo" className="hh-team-logo" />
+      <img src="\team_pic\DavidO.jpg" alt="David Ogunbanjo" className="hh-team-logo" />
       <h3>David Ogunbanjo</h3>
       <p>Organizer</p>
+      {/*Add linkden and github link */}
     </div>
 
     {/* AIDAN */}
@@ -261,25 +263,25 @@ const HackHoundsLanding = () => {
       <p>Host Club</p>
     </div>
 
-    {/* LESLIE */}
+    {/* vilnis */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="Leslie Kim" className="hh-team-logo" />
-      <h3>Leslie Kim</h3>
+      <img src="\discord_logo.png" alt="vilnis" className="hh-team-logo" />
+      <h3>Vilnis</h3>
       <p>Host Club</p>
     </div>
 
-    {/* VILNIS */}
+    {/* John */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="Vilnis Jatnieks" className="hh-team-logo" />
-      <h3>Vilnis Jatnieks</h3>
-      <p>Host Club</p>
+      <img src="\team_pic\johnN.jpg" alt="John Nweke" className="hh-team-logo" />
+      <h3>John Nweke</h3>
+      <p>CS Faculty</p>
     </div>
 
     {/* DAVID OPITZ */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="David Opitz" className="hh-team-logo" />
+      <img src="\team_pic\DaveO.png" alt="David Opitz" className="hh-team-logo" />
       <h3>David Opitz</h3>
-      <p>Host Club</p>
+      <p>CS Faculty</p>
     </div>
 
   </div>
@@ -292,23 +294,28 @@ const HackHoundsLanding = () => {
 
     <div className="hh-grid">
       <div className="hh-card">
-        <img src="\discord_logo.png" alt="NAS Logo" className="hh-sponsor-logo" />
+        <img src="\nas_logo.jpg" alt="NAS Logo" className="hh-sponsor-logo" />
         <p>NAS</p>
       </div>
 
       <div className="hh-card">
-        <img src="\discord_logo.png" alt="ACM Logo" className="hh-sponsor-logo" />
+        <img src="\acm_logo.png" alt="ACM Logo" className="hh-sponsor-logo" />
         <p>ACM</p>
       </div>
 
       <div className="hh-card">
-        <img src="\discord_logo.png" alt="Cybersecurity Logo" className="hh-sponsor-logo" />
-        <p>CyberSecurity</p>
+        <img src="\cyber_logo.png" alt="Cybersecurity Logo" className="hh-sponsor-logo" />
+        <p>Cyber Hounds</p>
       </div>
 
       <div className="hh-card">
         <img src="\discord_logo.png" alt="Teacher Education Logo" className="hh-sponsor-logo" />
         <p>Teacher Education</p>
+      </div>
+
+      <div className="hh-card">
+        <img src="\colorStack_logo.png" alt="colorstack logo" className="hh-sponsor-logo" />
+        <p>COLORSTACK</p>
       </div>
     </div>
 

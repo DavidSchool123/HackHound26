@@ -36,12 +36,17 @@ ul, li {
 /*Here is the font style*/
 .hh-nav-title,
 .hh-section h2,
-.hh-hero-content h1 {
+.hh-hero-content h1,
+.hh-card, 
+.hh-prizes-grid{
   font-family: "Orbitron", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
+.hh-card {
+  font-size: 1rem;
+}
 
 
 
