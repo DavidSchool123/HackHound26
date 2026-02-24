@@ -72,10 +72,10 @@ const HackHoundsLanding = () => {
 
       <div className="hh-tracks-container">
 
-        {/* Top Center Track */}
+        {/* Top Major Track */}
         <div className="hh-track-card main">
-          <h3>General</h3>
-          <p>Open‑ended projects across any domain.</p>
+          <h3>Finance</h3>
+          <p>Build tools for money, markets, or smarter decisions.</p>
         </div>
 
         {/* Bottom Two Tracks */}
@@ -88,6 +88,25 @@ const HackHoundsLanding = () => {
           <div className="hh-track-card">
             <h3>Health</h3>
             <p>Create tools that support wellness or healthcare.</p>
+          </div>
+        </div>
+
+        {/* Top Minor Track */}
+        <div className="hh-track-card main">
+          <h3>General</h3>
+          <p>Open‑ended projects across any domain.</p>
+        </div>
+
+        {/* Bottom Two Tracks */}
+        <div className="hh-tracks-row">
+          <div className="hh-track-card">
+            <h3>Hardware</h3>
+            <p>Hack with sensors, circuits, or devices.</p>
+          </div>
+
+          <div className="hh-track-card">
+            <h3>CyberSecurity</h3>
+            <p>Protect systems, data, and digital spaces.</p>
           </div>
         </div>
 
