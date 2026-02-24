@@ -232,7 +232,7 @@ ul, li {
 /* =========================================================
    GENERIC GRID (tracks, schedule, etc.)
    ========================================================= */
-.hh-grid {
+.hh-grid, .hh-grid2 {
   display: grid;
   gap: 1rem;
   margin-top: 1rem;
@@ -242,6 +242,7 @@ ul, li {
   .hh-grid {
     grid-template-columns: repeat(3, 1fr); /*important*/
   }
+  
 }
 
 

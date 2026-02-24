@@ -248,7 +248,7 @@ const HackHoundsLanding = () => {
   <section id="faq" className="hh-section">
     <h2>FAQ</h2>
 
-    <div className="hh-grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+    <div className="hh-grid2">
       <div className="hh-card">
         <h3>Do I need experience?</h3>
         <p>No: HackHounds is beginner‑friendly.</p>
