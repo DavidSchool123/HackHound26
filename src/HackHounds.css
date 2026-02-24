@@ -374,40 +374,32 @@ ul, li {
   font-weight: 700;
 }
 
-/* Color variants */
+/* Existing Colors */
 .hh-prize-card.cyan {
   border-color: var(--cyber-cyan);
   box-shadow: 0 0 12px rgba(77, 231, 231, 0.35);
 }
-.hh-prize-card.cyan h3 {
-  color: var(--cyber-cyan);
-}
+.hh-prize-card.cyan h3 { color: var(--cyber-cyan); }
 
 .hh-prize-card.magenta {
   border-color: var(--cyber-magenta);
   box-shadow: 0 0 12px rgba(255, 102, 216, 0.35);
 }
-.hh-prize-card.magenta h3 {
-  color: var(--cyber-magenta);
-}
+.hh-prize-card.magenta h3 { color: var(--cyber-magenta); }
 
 .hh-prize-card.purple {
   border-color: var(--cyber-purple);
   box-shadow: 0 0 12px rgba(179, 140, 255, 0.35);
 }
-.hh-prize-card.purple h3 {
-  color: var(--cyber-purple);
-}
+.hh-prize-card.purple h3 { color: var(--cyber-purple); }
 
 .hh-prize-card.green {
   border-color: var(--cyber-green);
   box-shadow: 0 0 12px rgba(95, 255, 176, 0.35);
 }
-.hh-prize-card.green h3 {
-  color: var(--cyber-green);
-}
+.hh-prize-card.green h3 { color: var(--cyber-green); }
 
-/* Gold special */
+/* Gold */
 .hh-prize-card.gold {
   border-color: #ffd86b;
   box-shadow: 0 0 14px rgba(255, 216, 107, 0.45);
@@ -416,6 +408,37 @@ ul, li {
   color: #ffd86b;
   text-shadow: 0 0 8px rgba(255, 216, 107, 0.4);
 }
+
+/* NEW COLORS */
+
+/* Blue */
+.hh-prize-card.blue {
+  border-color: #4da3ff;
+  box-shadow: 0 0 12px rgba(77, 163, 255, 0.35);
+}
+.hh-prize-card.blue h3 { color: #4da3ff; }
+
+/* Orange */
+.hh-prize-card.orange {
+  border-color: #ff9b4d;
+  box-shadow: 0 0 12px rgba(255, 155, 77, 0.35);
+}
+.hh-prize-card.orange h3 { color: #ff9b4d; }
+
+/* Pink */
+.hh-prize-card.pink {
+  border-color: #ff6bbf;
+  box-shadow: 0 0 12px rgba(255, 107, 191, 0.35);
+}
+.hh-prize-card.pink h3 { color: #ff6bbf; }
+
+/* Teal */
+.hh-prize-card.teal {
+  border-color: #4dffe0;
+  box-shadow: 0 0 12px rgba(77, 255, 224, 0.35);
+}
+.hh-prize-card.teal h3 { color: #4dffe0; }
+
 
 /* Hover */
 .hh-prize-card:hover {

@@ -114,16 +114,17 @@ const HackHoundsLanding = () => {
     </section>
 
 
-      {/* PRIZES */}
+{/* PRIZES */}
 <section id="prizes" className="hh-section">
   <h2>Prizes</h2>
 
-  <div className="mainDivStructure">
-    
-  </div>
+  <div className="mainDivStructure"></div>
+
   <div className="hh-prizes-grid">
+
+    {/* Major Tracks */}
     <div className="hh-prize-card cyan">
-      <h3>Best General Track</h3>
+      <h3>Best Finance Track</h3>
     </div>
 
     <div className="hh-prize-card magenta">
@@ -134,21 +135,39 @@ const HackHoundsLanding = () => {
       <h3>Best Health Track</h3>
     </div>
 
+    {/* Minor Tracks */}
     <div className="hh-prize-card green">
-      <h3>Most Creative Hack</h3>
+      <h3>Best General Track</h3>
     </div>
 
+    <div className="hh-prize-card blue">
+      <h3>Best Hardware Track</h3>
+    </div>
+
+    <div className="hh-prize-card orange">
+      <h3>Best CyberSecurity Track</h3>
+    </div>
+
+    {/* Other */}
     <div className="hh-prize-card gold highlight">
       <h3>Best Overall Project</h3>
     </div>
+
+    <div className="hh-prize-card pink highlight">
+      <h3>Best Everyday Use</h3>
+    </div>
+
+    <div className="hh-prize-card teal highlight">
+      <h3>First Time Hack</h3>
+    </div>
+
   </div>
 
   <p className="hh-note">Prize details will be announced soon.</p>
 </section>
 
 
-
-    {/* SCHEDULE */}
+{/* SCHEDULE */}
 <section id="schedule" className="hh-section">
   <h2>Schedule</h2>
 
