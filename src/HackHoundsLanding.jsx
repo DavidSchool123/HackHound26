@@ -347,7 +347,7 @@ const HackHoundsLanding = () => {
       </div>
 
       <div className="hh-card">
-        <img src="\discord_logo.png" alt="Teacher Education Logo" className="hh-sponsor-logo" />
+        <img src="\TE_logo.png" alt="Teacher Education Logo" className="hh-sponsor-logo" />
         <p>Teacher Education</p>
       </div>
 
