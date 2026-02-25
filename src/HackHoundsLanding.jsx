@@ -181,34 +181,31 @@ const HackHoundsLanding = () => {
 
       <div className="hh-card">
         <h4>Morning</h4>
-        <p><strong>8–9 AM</strong> — Check‑In + Breakfast</p>
+        <p><strong>8–9 AM</strong> — Check‑In</p>
         <p><strong>9–9:30 AM</strong> — Opening Ceremony</p>
         <p><strong>9:30–10 AM</strong> — Team Formation</p>
         <p><strong>10 AM</strong> — Hacking Begins</p>
+        <p><strong>10 AM</strong> — Speaker #1</p>
       </div>
 
       <div className="hh-card">
         <h4>Afternoon</h4>
-        <p><strong>12–1 PM</strong> — Lunch</p>
-        <p><strong>1–2 PM</strong> — Speaker #1</p>
-        <p><strong>2:15–3 PM</strong> — Workshop #1</p>
-        <p><strong>3:15–4 PM</strong> — Workshop #2</p>
-        <p><strong>4–6 PM</strong> — Open Hacking</p>
+        <p><strong>12–1 PM</strong> — Brunch</p>
+        <p><strong>1–2 PM</strong> — Speaker #2</p>
+        <p><strong>2:15–5 PM</strong> — Workshop</p>
       </div>
 
       <div className="hh-card">
         <h4>Evening</h4>
         <p><strong>6–7 PM</strong> — Dinner</p>
-        <p><strong>7–9 PM</strong> — Speaker / Panel</p>
+        <p><strong>7–8 PM</strong> — Speaker / Panel</p>
         <p><strong>9 PM–12 AM</strong> — Game Night + Hacking</p>
       </div>
 
       <div className="hh-card">
         <h4>Late Night</h4>
         <p><strong>12–12:30 AM</strong> — Midnight Snack</p>
-        <p><strong>12:30–3 AM</strong> — Deep Work Sprint</p>
-        <p><strong>3–4 AM</strong> — Wellness Break</p>
-        <p><strong>4–7 AM</strong> — Overnight Hacking</p>
+        <p><strong>1–7 AM</strong> — Overnight Hacking</p>
       </div>
     </div>
 
@@ -223,26 +220,48 @@ const HackHoundsLanding = () => {
         <p><strong>7–8 AM</strong> — Breakfast</p>
         <p><strong>8–10 AM</strong> — Final Sprint</p>
         <p><strong>10 AM</strong> — Hacking Ends</p>
+        <p><strong>10-10:30 AM</strong> — Submissions</p>
       </div>
 
       <div className="hh-card">
         <h4>Presentations</h4>
-        <p><strong>10 AM–12 PM</strong> — Project Demos</p>
-        <p><strong>12–1 PM</strong> — Lunch + Judging</p>
+        <p><strong>10:30 AM–12 PM</strong> — Project Demos</p>
+        <p><strong>12–1 PM</strong> — Lunch</p>
+        <p><strong>12–2 PM</strong> — Judging</p>
       </div>
 
       <div className="hh-card">
         <h4>Afternoon</h4>
         <p><strong>1–2 PM</strong> — Career Center Workshop</p>
         <p><strong>3–4 PM</strong> — Awards Ceremony</p>
-        <p><strong>4 PM</strong> — Event Ends</p>
+        <p><strong>4:15 PM</strong> — Event Ends</p>
       </div>
     </div>
 
   </div>
 </section>
 
+  {/* Speaker */}
+  <section id="faq" className="hh-section">
+    <h2>SPEAKER TOPICS</h2>
 
+    <div className="hh-grid2">
+      <div className="hh-card">
+        <h3>Speaker #1</h3>
+        <p>AI/Vercel</p>
+      </div>
+
+      <div className="hh-card">
+        <h3>Speaker #2</h3>
+        <p>The Future of Work & Learning with AI</p>
+      </div>
+
+      <div className="hh-card">
+        <h3>Game Night</h3>
+        <p>Nitendo Game Night & Board Games</p>
+      </div>
+    </div>
+  </section>
 
   {/* FAQ */}
   <section id="faq" className="hh-section">
