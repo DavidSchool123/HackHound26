@@ -242,7 +242,7 @@ const HackHoundsLanding = () => {
 </section>
 
   {/* Speaker */}
-  <section id="faq" className="hh-section">
+  <section className="hh-section">
     <h2>SPEAKER TOPICS</h2>
 
     <div className="hh-grid2">
