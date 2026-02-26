@@ -309,7 +309,16 @@ const HackHoundsLanding = () => {
     <div className="hh-card">
       <img src="\team_pic\DavidO.jpg" alt="David Ogunbanjo" className="hh-team-logo" />
       <h3>David Ogunbanjo</h3>
-      <p>Organizer</p>
+      <p>Organizer</p> 
+      <div className="hh-contact">
+      <a href="https://discord.gg/QpuehrKCzB" target="_blank" rel="noopener noreferrer">
+        <img src="\discord_logo.png" alt="Discord" className="contact-icon" />
+      </a>
+
+      <a href="https://www.instagram.com/loyolacyberhounds" target="_blank" rel="noopener noreferrer">
+        <img src="\instagram_logo.png" alt="Instagram" className="contact-icon" />
+      </a>
+    </div>
       {/*Add linkden and github link */}
     </div>
 
