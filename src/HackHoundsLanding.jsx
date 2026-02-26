@@ -248,12 +248,12 @@ const HackHoundsLanding = () => {
     <div className="hh-grid2">
       <div className="hh-card">
         <h3>Speaker #1</h3>
-        <p>AI/Vercel</p>
+        <p><strong>Speaker:</strong> Miles Hall & Kelechi Opurum — "AI / Vercel"</p>
       </div>
 
       <div className="hh-card">
         <h3>Speaker #2</h3>
-        <p>The Future of Work & Learning with AI</p>
+        <p><strong>Speaker:</strong> Quiana Bannerman — “The Future of Work & Learning with AI”</p>
       </div>
 
       <div className="hh-card">
@@ -300,9 +300,14 @@ const HackHoundsLanding = () => {
 
     {/* Milles */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="Miles Hall" className="hh-team-logo" />
+      <img src="\team_pic\mileH.jpg" alt="Miles Hall" className="hh-team-logo" />
       <h3>Miles Hall</h3>
       <p>Organizer</p>
+      <div className="hh-contact">
+      <a href="https://www.linkedin.com/in/miles-hall1/" target="_blank" rel="noopener noreferrer">
+        <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
+      </a>
+    </div>
     </div>
 
     {/* DAVID OGUNBANJO */}
@@ -311,29 +316,46 @@ const HackHoundsLanding = () => {
       <h3>David Ogunbanjo</h3>
       <p>Organizer</p> 
       <div className="hh-contact">
-      <a href="https://discord.gg/QpuehrKCzB" target="_blank" rel="noopener noreferrer">
-        <img src="\discord_logo.png" alt="Discord" className="contact-icon" />
-      </a>
-
-      <a href="https://www.instagram.com/loyolacyberhounds" target="_blank" rel="noopener noreferrer">
-        <img src="\instagram_logo.png" alt="Instagram" className="contact-icon" />
+      <a href="https://www.linkedin.com/in/david-ogunbanjo-987bb720b/" target="_blank" rel="noopener noreferrer">
+        <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
       </a>
     </div>
-      {/*Add linkden and github link */}
     </div>
 
     {/* AIDAN */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="Aidan Marshall" className="hh-team-logo" />
+      <img src="\team_pic\aidanM.jpg" alt="Aidan Marshall" className="hh-team-logo" />
       <h3>Aidan Marshall</h3>
       <p>Host Club</p>
+      <div className="hh-contact">
+      <a href="https://www.linkedin.com/in/aidan-r-marshall/" target="_blank" rel="noopener noreferrer">
+        <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
+      </a>
+    </div>
+    </div>
+
+    {/* Kelechi Opurum */}
+    <div className="hh-card">
+      <img src="\team_pic\kelechiO.jpg" alt="vilnis" className="hh-team-logo" />
+      <h3>Kelechi Opurum</h3>
+      <p>Host Club</p>
+      <div className="hh-contact">
+      <a href="https://www.linkedin.com/in/kelechi-opurum/" target="_blank" rel="noopener noreferrer">
+        <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
+      </a>
+    </div>
     </div>
 
     {/* vilnis */}
     <div className="hh-card">
-      <img src="\discord_logo.png" alt="vilnis" className="hh-team-logo" />
-      <h3>Vilnis</h3>
+      <img src="\team_pic\vilnisJ.jpg" alt="Kelechi " className="hh-team-logo" />
+      <h3>Vilnis Jatnieks</h3>
       <p>Host Club</p>
+      <div className="hh-contact">
+      <a href="https://www.linkedin.com/in/vilnis-jatnieks/" target="_blank" rel="noopener noreferrer">
+        <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
+      </a>
+    </div>
     </div>
 
     {/* John */}
@@ -341,6 +363,11 @@ const HackHoundsLanding = () => {
       <img src="\team_pic\johnN.jpg" alt="John Nweke" className="hh-team-logo" />
       <h3>John Nweke</h3>
       <p>CS Faculty</p>
+      <div className="hh-contact">
+      <a href="https://www.linkedin.com/in/johnnweke/" target="_blank" rel="noopener noreferrer">
+        <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
+      </a>
+    </div>
     </div>
 
     {/* DAVID OPITZ */}
@@ -352,7 +379,6 @@ const HackHoundsLanding = () => {
 
   </div>
 </section>
-
 
     {/* SPONSORS */}
   <section id="sponsors" className="hh-section">
