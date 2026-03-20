@@ -350,7 +350,7 @@ const HackHoundsLanding = () => {
     <div className="hh-card">
       <img src="\team_pic\vilnisJ.jpg" alt="Kelechi " className="hh-team-logo" />
       <h3>Vilnis Jatnieks</h3>
-      <p>Host Club</p>
+      <p>Organizer</p>
       <div className="hh-contact">
       <a href="https://www.linkedin.com/in/vilnis-jatnieks/" target="_blank" rel="noopener noreferrer">
         <img src="\link_logo.png" alt="linkdlen" className="contact-icon" />
